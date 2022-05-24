@@ -8,7 +8,7 @@ id BIGINT auto_increment,
 nome VARCHAR(255) NOT NULL,
 idade INT,
 ano INT ,
-notas DECIMAL,
+notas DECIMAL(4,2),
 
 PRIMARY KEY (id)
 );
